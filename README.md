@@ -76,5 +76,4 @@ Dokumentasi ini berisi kumpulan perintah Git yang sering digunakan dalam pengemb
 
 ---
 
-> Disusun oleh: Muh. Alfikri Tri Anggoro Pamungkas  
-> Repositori: 
+> Disusun oleh: Muh. Alfikri Tri Anggoro Pamungkas
