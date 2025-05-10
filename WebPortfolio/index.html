@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website Muh. Alfikri Tri Anggoro Pamungkas - Frontend Developer">
+    <title>Portfolio | Alfikri</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <span class="logo">Alfikri</span>
+            </a>
+
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="profile-pic">
+                    <img src="assets/profile-pic.png" alt="Profile Picture" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <h1>Muh. Alfikri Tri Anggoro Pamungkas</h1>
+            <h2>Software Engineer | Frontend Developer | UI/UX Enthusiast</h2>
+            <p>Saya adalah seorang Frontend Developer yang bersemangat dalam menciptakan pengalaman digital yang menarik
+                dan fungsional. Mari kita mulai dan pelajari lebih lanjut tentang saya.</p>
+
+            <div class="cta-container">
+                <a href="assets/cv.pdf" class="download-btn" download>
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </a>
+            </div>
+
+            <div class="sosmed-container">
+                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" class="sosmed-link"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="sosmed-link"
+                    aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/mhmmd_alfikri05" target="_blank" rel="noopener noreferrer"
+                    class="sosmed-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="sosmed-link"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/05Alfikri" target="_blank" rel="noopener noreferrer" class="sosmed-link"
+                    aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-desc">
+                        As a graduate of the Bachelor of Information Systems Program at the Faculty of Industrial
+                        Engineering, Telkom University, I am looking for opportunities to contribute to the field of web
+                        development and user interface design. I have a deep interest in web-based technology
+                        development as well as the application of UI/UX principles to create functional and
+                        user-centered digital solutions. Through my internship experience as a Web Developer at
+                        Gamelab.id, I gained a practical understanding of the software development lifecycle, team
+                        collaboration, as well as the importance of user experience in every stage of system
+                        development. I am committed to continuously developing my technical and design skills to play an
+                        active role in creating innovative and impactful digital solutions. I look forward to working
+                        alongside like-minded individuals and teams who share my passion for driving inclusive and
+                        user-centric technological advancements.
+                    </p>
+                    <div class="skills">
+                        <h3>Keahlian</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikasi Section -->
+                <div class="certifications">
+                    <h3>Sertifikasi</h3>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <div class="cert-logo">
+                                <img src="assets/certificates/html-css.png" alt="HTML & CSS Certificate" loading="lazy">
+                            </div>
+                            <div class="cert-info">
+                                <h4>HTML & CSS Fundamentals</h4>
+                                <p>Dicoding Indonesia</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-logo">
+                                <img src="assets/certificates/javascript.png" alt="JavaScript Certificate"
+                                    loading="lazy">
+                            </div>
+                            <div class="cert-info">
+                                <h4>JavaScript Essential</h4>
+                                <p>FreeCodeCamp</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-logo">
+                                <img src="assets/certificates/react.png" alt="React Certificate" loading="lazy">
+                            </div>
+                            <div class="cert-info">
+                                <h4>React.js Development</h4>
+                                <p>Meta</p>
+                                <span class="cert-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio Saya</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/portfolio/project1.jpg" alt="Project 1" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-Commerce Website</h3>
+                                <p>Web Development</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-img">
+                        <img src="assets/portfolio/project2.jpg" alt="Project 2" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Dashboard Design</h3>
+                                <p>UI/UX Design</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fab fa-behance"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-img">
+                        <img src="assets/portfolio/project3.jpg" alt="Project 3" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Food Delivery App</h3>
+                                <p>Mobile App</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/portfolio/project4.jpg" alt="Project 4" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Blog Platform</h3>
+                                <p>Web Development</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="portfolio-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>alfikri@email.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telepon</h3>
+                        <p>+62 812 3456 7890</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Lokasi</h3>
+                        <p>Bandung, Indonesia</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
