@@ -1,7 +1,0 @@
-Edit/ubah file.
-
-Simpan (git add .)
-
-Commit (git commit -m "pesan")
-
-Push lagi (git push)
