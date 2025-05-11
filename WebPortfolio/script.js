@@ -14,7 +14,7 @@ const setActiveMenu = () => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
         const sectionId = section.getAttribute('id');
-        
+
         if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
             navLinks.forEach(link => {
                 link.classList.remove('active');
