@@ -73,11 +73,15 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--navbar-bg);
+  background: transparent;
   padding: 1rem 0;
   z-index: 1000;
-  box-shadow: var(--shadow);
   transition: var(--transition);
+}
+
+.navbar.scrolled {
+  background: var(--navbar-bg);
+  box-shadow: var(--shadow);
 }
 
 .navbar .container {
@@ -189,6 +193,7 @@ h6 {
   padding: 4rem 0;
   text-align: center;
   background: var(--body-bg);
+  position: relative;
 }
 
 .home h1 {
@@ -208,9 +213,10 @@ h6 {
 }
 
 .home p {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto 2rem;
   font-size: 1.1rem;
+  text-align: justify;
 }
 
 .cta-container {
@@ -260,6 +266,16 @@ h6 {
   box-shadow: 0 6px 20px var(--primary);
 }
 
+.github-profile {
+  width: 100%;
+  max-width: 1200px;
+  height: 800px;
+  margin: 2rem auto;
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
 /* About Section */
 .about {
   padding: 4rem 0;
@@ -284,6 +300,7 @@ h6 {
   flex: 1;
   line-height: 1.8;
   max-width: 700px;
+  text-align: justify;
 }
 
 .about-image {
@@ -520,7 +537,7 @@ h6 {
 
 /* Contact Section */
 .contact {
-  padding: 2rem 0;
+  padding: 4rem 0;
   background: var(--body-bg);
 }
 
@@ -711,15 +728,13 @@ h6 {
 /* Footer Styles */
 .footer {
   background: var(--card-bg);
-  padding: 4rem 0 1rem;
-  margin-top: 4rem;
+  padding: 2rem 0 1rem;
 }
 
 .footer-content {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 3rem;
-  margin-bottom: 3rem;
 }
 
 .footer-brand .logo {
@@ -784,6 +799,7 @@ h6 {
   color: var(--text-secondary);
   border-radius: 50%;
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .social-links a:hover {
@@ -793,7 +809,7 @@ h6 {
 
 .footer-bottom {
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 

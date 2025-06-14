@@ -106,6 +106,18 @@ filterButtons.forEach((button) => {
     });
 });
 
+// Navbar Scroll Effect
+const navbar = document.querySelector('.navbar');
+const homeSection = document.querySelector('.home');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+});
+
 // Event Listeners
 document.addEventListener("DOMContentLoaded", () => {
     initTheme();
